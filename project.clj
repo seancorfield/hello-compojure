@@ -5,7 +5,7 @@
   :dependencies [[org.clojure/clojure "1.10.0"]
                  [compojure "1.6.1"]
                  [ring/ring "1.8.1"]
-                 [ring/ring-jetty-adapter "1.8.1"]
+                 ;[ring/ring-jetty-adapter "1.8.1"]
                  [ring/ring-defaults "0.3.2"]]
   :main seancorfield.hello-compojure.handler
   :ring {:handler seancorfield.hello-compojure.handler/app}
